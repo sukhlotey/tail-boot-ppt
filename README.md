@@ -158,6 +158,97 @@ module.exports = {
   plugins: [],
 }
 ```
+index.html
+```bash
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+    <nav>
+        <div class="containerr">
+            <a href="#" class="logo">NASA</a>
+            <button class="menu-button">☰</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div class="content-wrapper">
+            <div class="image-container">
+                <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/default-thumbnail.jpg" alt="NASA">
+            </div>
+            <div class="text-container">
+                <h1>WELCOME TO NASA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut harum repudiandae sit eius! Quo animi earum impedit, laudantium quidem fugit ipsa ullam sunt, explicabo veniam non, minus molestiae natus dolorem eum aut rerum rem velit! Illo iusto sapiente, similique quis at dolorum nam eveniet doloremque esse voluptates officiis, maiores vitae?
+                </p>
+                <div class="buttons">
+                    <button class="btn-blue">Explore</button>
+                    <button class="btn-green">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container card-container">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Venus_Rotation_Movie.gif/640px-Venus_Rotation_Movie.gif" alt="Image">
+            <div class="card-content">
+                <h5>Card Title</h5>
+                <p>Some description about this card.</p>
+                <button class="btn-blue">Learn More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.cronodon.com/images/mercury-3.gif" alt="Image">
+            <div class="card-content">
+                <h5>Card Title</h5>
+                <p>Some description about this card.</p>
+                <button class="btn-blue">Learn More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/1a/a2/d5/1aa2d5fee3ea2e2af739959bf3911f3e.gif" alt="Image">
+            <div class="card-content">
+                <h5>Card Title</h5>
+                <p>Some description about this card.</p>
+                <button class="btn-blue">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://i.pinimg.com/736x/ab/76/c0/ab76c06b09e4a0812b653ba703e7c557.jpg" alt="Slide 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://image.slidesdocs.com/responsive-images/background/blue-beautiful-night-nature-galaxy-space-powerpoint-background_a1cc625475__960_540.jpg" alt="Slide 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ichef.bbci.co.uk/images/ic/480xn/p023hqw3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="swiper.js"></script>
+
+</body>
+```
 
 style.css
 
