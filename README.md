@@ -515,7 +515,7 @@ It will generate output.css and link it in index.html file
 
 ![Screenshot from 2025-03-30 22-41-08](https://github.com/user-attachments/assets/fe307012-2012-4068-a542-d6b8f36f451a)
 
-### Professional way to use Tailwindcss
+### Professional way to use Bootstrap
 
 ```bash
 
